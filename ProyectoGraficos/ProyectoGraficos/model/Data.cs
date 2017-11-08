@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 
 namespace ProyectoGraficos.model{
+    
     public class Data{
 
     }

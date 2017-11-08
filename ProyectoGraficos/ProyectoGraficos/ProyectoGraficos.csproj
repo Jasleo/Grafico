@@ -87,7 +87,11 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="model\Data.cs" />
+    <Compile Include="model\Punto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\Tema1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
