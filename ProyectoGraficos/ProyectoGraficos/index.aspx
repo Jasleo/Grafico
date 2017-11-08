@@ -9,14 +9,17 @@
 	<%
         Response.Clear();
         // Ancho del rectangulo original
-        int height = 100;
-        int width = 200;
+        int altura = 800;
+        int ancho = 600;
+
+        int midAl = 400;
+        int midAn = 300;
 
         // X numero random
         int x = 10;
         int y = 30;
 
-        Bitmap bmp = new Bitmap(width, height);
+        Bitmap bmp = new Bitmap(altura, ancho);
 
         Graphics g = Graphics.FromImage(bmp);
 
@@ -24,10 +27,8 @@
         g.Clear(Color.Green);
 
 
-        g.DrawRectangle(Pens.Black, 0, width/2, height, width/2);
-         //g.DrawRectangle(Pens.Black, 0, 0, width/2, height/2);
-        //g.DrawRectangle(Pens.White, 100 , 50, width/2, height/2);
-        g.DrawRectangle(Pens.White, height/2 , 0, height/2, width);
+        g.DrawRectangle(Pens.Black,0,midAn,altura,midAn);
+        g.DrawRectangle(Pens.Black,midAl,0,midAl,ancho);
 
        
 
