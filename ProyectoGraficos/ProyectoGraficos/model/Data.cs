@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ProyectoGraficos.model {
+namespace ProyectoGraficos.Model {
 
     public class Data {
 
-        public float calcularDistancia(Punto p) {
+        public float calcularDistancia(Vector v) {
             float distancia = 0;
 
             // rescato los puntos
-            double x1 = p.X1;
-            double y1 = p.Y1;
-            double x2 = p.X2;
-            double y2 = p.Y2;
+            double x1 = v.X1;
+            double y1 = v.Y1;
+            double x2 = v.X2;
+            double y2 = v.Y2;
 
             // hago la parte de restar el x2 con x1 
             double res1 = x2 - x1;
