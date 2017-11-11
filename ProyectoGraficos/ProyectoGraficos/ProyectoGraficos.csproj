@@ -76,23 +76,24 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.aspx" />
+    <Content Include="View\index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="index.aspx.cs">
+    <Compile Include="View\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
+    <Compile Include="View\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="model\Data.cs" />
-    <Compile Include="model\Punto.cs" />
+    <Compile Include="Model\Data.cs" />
+    <Compile Include="Model\Punto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Themes\Tema1\" />
+    <Folder Include="Controller\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
