@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graficarVectores", "graficarVectores\graficarVectores.csproj", "{5347AA57-4D8A-4412-AC93-9E03FBF5553C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5347AA57-4D8A-4412-AC93-9E03FBF5553C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5347AA57-4D8A-4412-AC93-9E03FBF5553C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5347AA57-4D8A-4412-AC93-9E03FBF5553C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5347AA57-4D8A-4412-AC93-9E03FBF5553C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DD7C80C-F88F-482A-BE03-183138AF1855}
+	EndGlobalSection
+EndGlobal
