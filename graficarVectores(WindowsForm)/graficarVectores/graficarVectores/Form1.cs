@@ -61,6 +61,24 @@ namespace graficarVectores {
             g.DrawLine(Pens.Red, coord_x(x1), coord_y(y1), coord_x(x2), coord_y(y2));
         }
 
+        public void graficarRayita(Graphics g, int x1, int y1, int x2, int y2) {
+            g.DrawLine(Pens.Black, coord_x(x1), coord_y(y1), coord_x(x2), coord_y(y2));
+        }
+
+        public void posRayita(Graphics g, int x, int y, int i) {
+            // Create font and brush.
+            Font drawFont = new Font("Arial", 6);
+            SolidBrush drawBrush = new SolidBrush(Color.Black);
+
+            // Create point for upper-left corner of drawing.
+            PointF drawPoint = new PointF(coord_x(x), coord_y(y));
+
+            // Draw string to screen.
+            g.DrawString(i.ToString(), drawFont, drawBrush, drawPoint);
+        }
+
+
+
         private void Form1_Load(object sender, EventArgs e) {
 
         }
@@ -309,6 +327,151 @@ namespace graficarVectores {
 
             g.DrawLine(Pens.Black, 0, alto / 2, ancho, alto / 2);
             g.DrawLine(Pens.Black, ancho / 2, 0, ancho / 2, alto);
+
+
+            for (int i = 0; i < alto; i++) {
+                if (i == 25) {
+                    graficarRayita(g, -5, 25, 5, 25);
+                    posRayita(g, 5, 23, i);
+                    graficarRayita(g, -5, -25, 5, -25);
+                    posRayita(g, 5, -23, (i * -1));
+                }
+                if (i == 50) {
+                    graficarRayita(g, -5, 50, 5, 50);
+                    posRayita(g, 5, 49, i);
+                    graficarRayita(g, -5, -50, 5, -50);
+                    posRayita(g, 5, -49, (i * -1));
+                }
+                if (i == 75) {
+                    graficarRayita(g, -5, 75, 5, 75);
+                    posRayita(g, 5, 74, i);
+                    graficarRayita(g, -5, -75, 5, -75);
+                    posRayita(g, 5, -74, (i * -1));
+                }
+                if (i == 100) {
+                    graficarRayita(g, -5, 100, 5, 100);
+                    posRayita(g, 5, 99, i);
+                    graficarRayita(g, -5, -100, 5, -100);
+                    posRayita(g, 5, -99, (i * -1));
+                }
+                if (i == 125) {
+                    graficarRayita(g, -5, 125, 5, 125);
+                    posRayita(g, 5, 124, i);
+                    graficarRayita(g, -5, -125, 5, -125);
+                    posRayita(g, 5, -124, (i * -1));
+                }
+                if (i == 150) {
+                    graficarRayita(g, -5, 150, 5, 150);
+                    posRayita(g, 5, 149, i);
+                    graficarRayita(g, -5, -150, 5, -150);
+                    posRayita(g, 5, -149, (i * -1));
+                }
+                if (i == 175) {
+                    graficarRayita(g, -5, 175, 5, 175);
+                    posRayita(g, 5, 174, i);
+                    graficarRayita(g, -5, -175, 5, -175);
+                    posRayita(g, 5, -174, (i * -1));
+                }
+                if (i == 200) {
+                    graficarRayita(g, -5, 200, 5, 200);
+                    posRayita(g, 5, 199, i);
+                    graficarRayita(g, -5, -200, 5, -200);
+                    posRayita(g, 5, -199, (i * -1));
+                }
+                if (i == 225) {
+                    graficarRayita(g, -5, 225, 5, 225);
+                    posRayita(g, 5, 224, i);
+                    graficarRayita(g, -5, -225, 5, -225);
+                    posRayita(g, 5, -224, (i * -1));
+                }
+                if (i == 250) {
+                    graficarRayita(g, -5, 250, 5, 250);
+                    posRayita(g, 5, 249, i);
+                    graficarRayita(g, -5, -250, 5, -250);
+                    posRayita(g, 5, -249, (i * -1));
+                }
+            }
+
+            for (int i = 0; i < ancho; i++) {
+                if (i == 25) {
+                    graficarRayita(g, 25, -5, 25, 5);
+                    posRayita(g, 25, -6, i);
+                    graficarRayita(g, -25, -5, -25, 5);
+                    posRayita(g, -25, -6, (i*-1));
+                }
+                if (i == 50) {
+                    graficarRayita(g, 50, -5, 50, 5);
+                    posRayita(g, 50, -6, i);
+                    graficarRayita(g, -50, -5, -50, 5);
+                    posRayita(g, -50, -6, (i * -1));
+                }
+                if (i == 75) {
+                    graficarRayita(g, 75, -5, 75, 5);
+                    posRayita(g, 75, -6, i);
+                    graficarRayita(g, -75, -5, -75, 5);
+                    posRayita(g, -75, -6, (i * -1));
+                }
+                if (i == 100) {
+                    graficarRayita(g, 100, -5, 100, 5);
+                    posRayita(g, 100, -6, i);
+                    graficarRayita(g, -100, -5, -100, 5);
+                    posRayita(g, -100, -6, (i * -1));
+                }
+                if (i == 125) {
+                    graficarRayita(g, 125, -5, 125, 5);
+                    posRayita(g, 125, -6, i);
+                    graficarRayita(g, -125, -5, -125, 5);
+                    posRayita(g, -125, -6, (i * -1));
+                }
+                if (i == 150) {
+                    graficarRayita(g, 150, -5, 150, 5);
+                    posRayita(g, 150, -6, i);
+                    graficarRayita(g, -150, -5, -150, 5);
+                    posRayita(g, -150, -6, (i * -1));
+                }
+                if (i == 175) {
+                    graficarRayita(g, 175, -5, 175, 5);
+                    posRayita(g, 175, -6, i);
+                    graficarRayita(g, -175, -5, -175, 5);
+                    posRayita(g, -175, -6, (i * -1));
+                }
+                if (i == 200) {
+                    graficarRayita(g, 200, -5, 200, 5);
+                    posRayita(g, 200, -6, i);
+                    graficarRayita(g, -200, -5, -200, 5);
+                    posRayita(g, -200, -6, (i * -1));
+                }
+                if (i == 225) {
+                    graficarRayita(g, 225, -5, 225, 5);
+                    posRayita(g, 225, -6, i);
+                    graficarRayita(g, -225, -5, -225, 5);
+                    posRayita(g, -225, -6, (i * -1));
+                }
+                if (i == 250) {
+                    graficarRayita(g, 250, -5, 250, 5);
+                    posRayita(g, 250, -6, i);
+                    graficarRayita(g, -250, -5, -250, 5);
+                    posRayita(g, -250, -6, (i * -1));
+                }
+                if (i == 275) {
+                    graficarRayita(g, 275, -5, 275, 5);
+                    posRayita(g, 275, -6, i);
+                    graficarRayita(g, -275, -5, -275, 5);
+                    posRayita(g, -275, -6, (i * -1));
+                }
+                if (i == 300) {
+                    graficarRayita(g, 300, -5, 300, 5);
+                    posRayita(g, 300, -6, i);
+                    graficarRayita(g, -300, -5, -300, 5);
+                    posRayita(g, -300, -6, (i * -1));
+                }
+                if (i == 325) {
+                    graficarRayita(g, 325, -5, 325, 5);
+                    posRayita(g, 325, -6, i);
+                    graficarRayita(g, -325, -5, -325, 5);
+                    posRayita(g, -325, -6, (i * -1));
+                }
+            }
         }
 
         private void btnGraficar_Click(object sender, EventArgs e) {
@@ -346,8 +509,7 @@ namespace graficarVectores {
 
                 foreach (Coordenada coordenada in listCoordenadas) {
                     if (variable.Equals("true")) {
-                    }
-                    else{
+                    } else {
                         graficarPunto(pnlGrafico.CreateGraphics(), coordenada.X, coordenada.Y);
                     }
                 }
@@ -372,8 +534,7 @@ namespace graficarVectores {
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x2,/*y2*/ y2);
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x2,/*y1*/ y2,/*x2*/ x3,/*y2*/ y3);
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x3,/*y2*/ y3);
-                }
-                else{
+                } else {
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x2,/*y2*/ y2);
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x2,/*y1*/ y2,/*x2*/ x3,/*y2*/ y3);
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x3,/*y2*/ y3);
@@ -482,8 +643,7 @@ namespace graficarVectores {
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x2,/*y1*/ y2,/*x2*/ x3,/*y2*/ y3);
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x3,/*y1*/ y3,/*x2*/ x4,/*y2*/ y4);
                     graficarVectorPinchar(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x4,/*y2*/ y4);
-                }
-                else{
+                } else {
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x1,/*y1*/ y1,/*x2*/ x2,/*y2*/ y2);
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x2,/*y1*/ y2,/*x2*/ x3,/*y2*/ y3);
                     graficarVector(pnlGrafico.CreateGraphics(),/*x*/ x3,/*y1*/ y3,/*x2*/ x4,/*y2*/ y4);

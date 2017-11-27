@@ -37,3 +37,13 @@ C:\Users\dhenriquez\Desktop\graficarVectores\graficarVectores\graficarVectores\o
 C:\Users\dhenriquez\Desktop\graficarVectores\graficarVectores\graficarVectores\obj\Debug\graficarVectores.csproj.GenerateResource.Cache
 C:\Users\dhenriquez\Desktop\graficarVectores\graficarVectores\graficarVectores\obj\Debug\graficarVectores.exe
 C:\Users\dhenriquez\Desktop\graficarVectores\graficarVectores\graficarVectores\obj\Debug\graficarVectores.pdb
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\bin\Debug\graficarVectores.exe.config
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\bin\Debug\graficarVectores.exe
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\bin\Debug\graficarVectores.pdb
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.csprojResolveAssemblyReference.cache
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.Form1.resources
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.Properties.Resources.resources
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.csproj.GenerateResource.Cache
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.exe
+C:\Users\diego\Desktop\Grafico\graficarVectores(WindowsForm)\graficarVectores\graficarVectores\obj\Debug\graficarVectores.pdb
